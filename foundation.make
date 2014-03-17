@@ -3,6 +3,7 @@
 ;Version History
 
 ;13/03/2014 - Initial version
+;17/03/2014 - Added zendesk, zendesk_feedbacktab, date_ical, feeds_facebook
 
 core = 7.x
 
@@ -38,6 +39,9 @@ projects[ctools][version] = "1.4"
 projects[date][subdir] = contrib
 projects[date][version] = "2.7"
 
+projects[date_ical][subdir] = contrib
+projects[date_ical][version] = "3.1"
+
 projects[devel][subdir] = contrib
 projects[devel][version] = "1.4"
 
@@ -61,6 +65,9 @@ projects[features_extra] = "1.0-beta1"
 
 projects[feeds] = contrib
 projects[feeds] = "2.0-alpha8"
+
+projects[feeds_facebook] = contrib
+projects[feeds_facebook] = "1.x-dev"
 
 projects[feeds_tamper] = contrib
 projects[feeds_tamper] = "1.0-beta5"
@@ -187,6 +194,12 @@ projects[workbench][version] = "1.2"
 
 projects[workbench_moderation][subdir] = contrib
 projects[workbench_moderation][version] = "1.3"
+
+projects[zendesk][subdir] = contrib
+projects[zendesk][version] = "2.0-beta1"
+
+projects[zendesk_feedbacktab][subdir] = contrib
+projects[zendesk_feedbacktab][version] = "1.0"
 
 ; Themes
 projects[omega][type] = "theme"
