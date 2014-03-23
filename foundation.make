@@ -4,6 +4,7 @@
 
 ;13/03/2014 - Initial version
 ;17/03/2014 - Added zendesk, zendesk_feedbacktab, date_ical, feeds_facebook
+;19/03/2014 - Removed JSON2 library.
 
 core = 7.x
 
@@ -216,11 +217,6 @@ libraries[flexslider][download][type] = "get"
 libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/archive/master.zip"
 libraries[flexslider][directory_name] = "flexslider"
 libraries[flexslider][type] = "library"
-
-libraries[json2][download][type] = "get"
-libraries[json2][download][url] = "https://github.com/douglascrockford/JSON-js/blob/master/json2.js"
-libraries[json2][directory_name] = "json2"
-libraries[json2][type] = "library"
 
 libraries[superfish][download][type] = "get"
 libraries[superfish][download][url] = "https://github.com/mehrpadin/Superfish-for-Drupal/archive/master.zip"
