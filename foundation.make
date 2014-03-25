@@ -5,6 +5,7 @@
 ;13/03/2014 - Initial version
 ;17/03/2014 - Added zendesk, zendesk_feedbacktab, date_ical, feeds_facebook
 ;19/03/2014 - Removed JSON2 library.
+;25/03/2014 - Added views_datasource
 
 core = 7.x
 
@@ -186,6 +187,9 @@ projects[variable][version] = "2.4"
 
 projects[views][subdir] = contrib
 projects[views][version] = "3.7"
+
+projects[views_datasource][subdir] = contrib
+projects[views_datasource][version] = "1.x-dev"
 
 projects[weight][subdir] = contrib
 projects[weight][version] = "2.3"
