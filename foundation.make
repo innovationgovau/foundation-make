@@ -5,7 +5,7 @@
 ;13/03/2014 - Initial version
 ;17/03/2014 - Added zendesk, zendesk_feedbacktab, date_ical, feeds_facebook
 ;19/03/2014 - Removed JSON2 library.
-;25/03/2014 - Added views_datasource, services and services_views. Updated entity and field_collection.
+;25/03/2014 - Added views_datasource, services and services_views. Updated entity, field_collection and CKEditor library.
 
 core = 7.x
 
@@ -218,7 +218,7 @@ projects[omega][version] = "4.2"
 
 ; Libraries
 libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.3.1/ckeditor_4.3.1_standard.tar.gz"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.3/ckeditor_4.3_full.tar.gz"
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][type] = "library"
 libraries[ckeditor][destination] = "libraries"
