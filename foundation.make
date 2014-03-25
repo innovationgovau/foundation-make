@@ -5,7 +5,7 @@
 ;13/03/2014 - Initial version
 ;17/03/2014 - Added zendesk, zendesk_feedbacktab, date_ical, feeds_facebook
 ;19/03/2014 - Removed JSON2 library.
-;25/03/2014 - Added views_datasource
+;25/03/2014 - Added views_datasource, services and services_views. Updated entity and field_collection.
 
 core = 7.x
 
@@ -57,7 +57,7 @@ projects[email][subdir] = contrib
 projects[email][version] = "1.2"
 
 projects[entity][subdir] = contrib
-projects[entity][version] = "1.3"
+projects[entity][version] = "1.4"
 
 projects[features][subdir] = contrib
 projects[features][version] = "2.0"
@@ -83,14 +83,14 @@ projects[feeds_xpathparser] = "1.0-beta4"
 projects[feeds_oauth] = contrib
 projects[feeds_oauth] = "1.0-beta1"
 
+projects[field_collection][subdir] = contrib
+projects[field_collection][version] = "1.0-beta7"
+
 projects[field_group][subdir] = contrib
 projects[field_group][version] = "1.x-dev"
 
 projects[field_reference][subdir] = contrib
 projects[field_reference][version] = "1.0"
-
-projects[field_collection][subdir] = contrib
-projects[field_collection][version] = "1.0-beta5"
 
 projects[file_entity][subdir] = contrib
 projects[file_entity][version] = "2.0-alpha3"
@@ -163,6 +163,12 @@ projects[scheduler][version] = "1.2"
 
 projects[search_api][subdir] = contrib
 projects[search_api][version] = "1.11"
+
+projects[services][subdir] = contrib
+projects[services][version] = "3.7"
+
+projects[services_views][subdir] = contrib
+projects[services_views][version] = "1.0"
 
 projects[shs][subdir] = contrib
 projects[shs][version] = "1.6"
