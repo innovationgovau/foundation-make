@@ -6,6 +6,8 @@
 ;17/03/2014 - Added zendesk, zendesk_feedbacktab, date_ical, feeds_facebook
 ;19/03/2014 - Removed JSON2 library.
 ;25/03/2014 - Added views_datasource, services and services_views, backstretch. Updated entity, field_collection and CKEditor library.
+;14/04/2014 - Updated email, entity and jquery_update.
+;02/05/2014 - Updated variable. Core will be updated to 7.27.
 
 core = 7.x
 
@@ -24,7 +26,7 @@ projects[agls][subdir] = contrib
 projects[agls][version] = "1.0-beta3"
 
 projects[backstretch][subdir] = contrib
-projectsp[backstretch][version] = "2.x-dev"
+projects[backstretch][version] = "2.x-dev"
 
 projects[better_exposed_filters][subdir] = contrib
 projects[better_exposed_filters][version] = "3.0-beta4"
@@ -57,10 +59,10 @@ projects[easy_social][subdir] = contrib
 projects[easy_social][version] = "2.11"
 
 projects[email][subdir] = contrib
-projects[email][version] = "1.2"
+projects[email][version] = "1.3"
 
 projects[entity][subdir] = contrib
-projects[entity][version] = "1.4"
+projects[entity][version] = "1.5"
 
 projects[features][subdir] = contrib
 projects[features][version] = "2.0"
@@ -117,7 +119,7 @@ projects[job_scheduler][subdir] = contrib
 projects[job_scheduler][version] = "2.0-alpha3"
 
 projects[jquery_update][subdir] = contrib
-projects[jquery_update][version] = "2.x-dev"
+projects[jquery_update][version] = "2.4"
 
 projects[libraries][subdir] = contrib
 projects[libraries][version] = "2.2"
@@ -192,7 +194,7 @@ projects[twitter][subdir] = contrib
 projects[twitter][version] = "5.8"
 
 projects[variable][subdir] = contrib
-projects[variable][version] = "2.4"
+projects[variable][version] = "2.5"
 
 projects[views][subdir] = contrib
 projects[views][version] = "3.7"
