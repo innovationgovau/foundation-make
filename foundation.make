@@ -8,6 +8,7 @@
 ;25/03/2014 - Added views_datasource, services and services_views, backstretch. Updated entity, field_collection and CKEditor library.
 ;14/04/2014 - Updated email, entity and jquery_update.
 ;02/05/2014 - Updated variable. Core will be updated to 7.27.
+;26/05/2014 - Updated views, ckeditor, imce and search_api. Also updates core to 7.28.
 
 core = 7.x
 
@@ -32,7 +33,7 @@ projects[better_exposed_filters][subdir] = contrib
 projects[better_exposed_filters][version] = "3.0-beta4"
 
 projects[ckeditor][subdir] = contrib
-projects[ckeditor][version] = "1.13"
+projects[ckeditor][version] = "1.14"
 
 projects[ckeditor_link][subdir] = contrib
 projects[ckeditor_link][version] = "2.3"
@@ -110,7 +111,7 @@ projects[image_style_quality][subdir] = contrib
 projects[image_style_quality][version] = "1.3"
 
 projects[imce][subdir] = contrib
-projects[imce][version] = "1.8"
+projects[imce][version] = "1.9"
 
 projects[imce_plupload][subdir] = contrib
 projects[imce_plupload][version] = "1.2"
@@ -167,7 +168,7 @@ projects[scheduler][subdir] = contrib
 projects[scheduler][version] = "1.2"
 
 projects[search_api][subdir] = contrib
-projects[search_api][version] = "1.11"
+projects[search_api][version] = "1.12"
 
 projects[services][subdir] = contrib
 projects[services][version] = "3.7"
@@ -197,7 +198,7 @@ projects[variable][subdir] = contrib
 projects[variable][version] = "2.5"
 
 projects[views][subdir] = contrib
-projects[views][version] = "3.7"
+projects[views][version] = "3.8"
 
 projects[views_datasource][subdir] = contrib
 projects[views_datasource][version] = "1.x-dev"
