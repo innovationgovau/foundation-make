@@ -4,6 +4,7 @@
 
 ;13/03/2014 - Initial version
 ;17/03/2014 - Added zendesk, zendesk_feedbacktab, date_ical, feeds_facebook
+;17/03/2014 - Added backstretch
 
 core = 7.x
 
@@ -20,6 +21,9 @@ projects[admin_menu][version] = "3.0-rc4"
 
 projects[agls][subdir] = contrib
 projects[agls][version] = "1.0-beta3"
+
+projects[backstretch][subdir] = contrib
+projects[backstretch][version] = "2.x-dev"
 
 projects[better_exposed_filters][subdir] = contrib
 projects[better_exposed_filters][version] = "3.0-beta4"
