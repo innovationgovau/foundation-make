@@ -4,7 +4,15 @@
 
 ;13/03/2014 - Initial version
 ;17/03/2014 - Added zendesk, zendesk_feedbacktab, date_ical, feeds_facebook
+<<<<<<< HEAD
 ;17/03/2014 - Added backstretch
+=======
+;19/03/2014 - Removed JSON2 library.
+;25/03/2014 - Added views_datasource, services and services_views, backstretch. Updated entity, field_collection and CKEditor library.
+;14/04/2014 - Updated email, entity and jquery_update.
+;02/05/2014 - Updated variable. Core will be updated to 7.27.
+;26/05/2014 - Updated views, ckeditor, imce and search_api. Also updates core to 7.28.
+>>>>>>> FETCH_HEAD
 
 core = 7.x
 
@@ -29,7 +37,7 @@ projects[better_exposed_filters][subdir] = contrib
 projects[better_exposed_filters][version] = "3.0-beta4"
 
 projects[ckeditor][subdir] = contrib
-projects[ckeditor][version] = "1.13"
+projects[ckeditor][version] = "1.14"
 
 projects[ckeditor_link][subdir] = contrib
 projects[ckeditor_link][version] = "2.3"
@@ -56,10 +64,10 @@ projects[easy_social][subdir] = contrib
 projects[easy_social][version] = "2.11"
 
 projects[email][subdir] = contrib
-projects[email][version] = "1.2"
+projects[email][version] = "1.3"
 
 projects[entity][subdir] = contrib
-projects[entity][version] = "1.3"
+projects[entity][version] = "1.5"
 
 projects[features][subdir] = contrib
 projects[features][version] = "2.0"
@@ -85,14 +93,14 @@ projects[feeds_xpathparser] = "1.0-beta4"
 projects[feeds_oauth] = contrib
 projects[feeds_oauth] = "1.0-beta1"
 
+projects[field_collection][subdir] = contrib
+projects[field_collection][version] = "1.0-beta7"
+
 projects[field_group][subdir] = contrib
 projects[field_group][version] = "1.x-dev"
 
 projects[field_reference][subdir] = contrib
 projects[field_reference][version] = "1.0"
-
-projects[field_collection][subdir] = contrib
-projects[field_collection][version] = "1.0-beta5"
 
 projects[file_entity][subdir] = contrib
 projects[file_entity][version] = "2.0-alpha3"
@@ -107,7 +115,7 @@ projects[image_style_quality][subdir] = contrib
 projects[image_style_quality][version] = "1.3"
 
 projects[imce][subdir] = contrib
-projects[imce][version] = "1.8"
+projects[imce][version] = "1.9"
 
 projects[imce_plupload][subdir] = contrib
 projects[imce_plupload][version] = "1.2"
@@ -116,7 +124,7 @@ projects[job_scheduler][subdir] = contrib
 projects[job_scheduler][version] = "2.0-alpha3"
 
 projects[jquery_update][subdir] = contrib
-projects[jquery_update][version] = "2.x-dev"
+projects[jquery_update][version] = "2.4"
 
 projects[libraries][subdir] = contrib
 projects[libraries][version] = "2.2"
@@ -164,7 +172,13 @@ projects[scheduler][subdir] = contrib
 projects[scheduler][version] = "1.2"
 
 projects[search_api][subdir] = contrib
-projects[search_api][version] = "1.11"
+projects[search_api][version] = "1.12"
+
+projects[services][subdir] = contrib
+projects[services][version] = "3.7"
+
+projects[services_views][subdir] = contrib
+projects[services_views][version] = "1.0"
 
 projects[shs][subdir] = contrib
 projects[shs][version] = "1.6"
@@ -185,10 +199,13 @@ projects[twitter][subdir] = contrib
 projects[twitter][version] = "5.8"
 
 projects[variable][subdir] = contrib
-projects[variable][version] = "2.4"
+projects[variable][version] = "2.5"
 
 projects[views][subdir] = contrib
-projects[views][version] = "3.7"
+projects[views][version] = "3.8"
+
+projects[views_datasource][subdir] = contrib
+projects[views_datasource][version] = "1.x-dev"
 
 projects[weight][subdir] = contrib
 projects[weight][version] = "2.3"
@@ -211,7 +228,7 @@ projects[omega][version] = "4.2"
 
 ; Libraries
 libraries[ckeditor][download][type] = "get"
-libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.3.1/ckeditor_4.3.1_standard.tar.gz"
+libraries[ckeditor][download][url] = "http://download.cksource.com/CKEditor/CKEditor/CKEditor%204.3.3/ckeditor_4.3.3_full.zip"
 libraries[ckeditor][directory_name] = "ckeditor"
 libraries[ckeditor][type] = "library"
 libraries[ckeditor][destination] = "libraries"
@@ -220,11 +237,6 @@ libraries[flexslider][download][type] = "get"
 libraries[flexslider][download][url] = "https://github.com/woothemes/FlexSlider/archive/master.zip"
 libraries[flexslider][directory_name] = "flexslider"
 libraries[flexslider][type] = "library"
-
-libraries[json2][download][type] = "get"
-libraries[json2][download][url] = "https://github.com/douglascrockford/JSON-js/blob/master/json2.js"
-libraries[json2][directory_name] = "json2"
-libraries[json2][type] = "library"
 
 libraries[superfish][download][type] = "get"
 libraries[superfish][download][url] = "https://github.com/mehrpadin/Superfish-for-Drupal/archive/master.zip"
