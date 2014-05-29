@@ -10,7 +10,7 @@
 ;14/04/2014 - Updated email, entity and jquery_update.
 ;02/05/2014 - Updated variable. Core will be updated to 7.27.
 ;26/05/2014 - Updated views, ckeditor, imce and search_api. Also updates core to 7.28.
-;29/05/2014 - Updated devel. Added block_class.
+;29/05/2014 - Updated devel. Added block_class, lightbox2. Changed admin_menu version to 3.x-dev.
 
 
 core = 7.x
@@ -24,7 +24,7 @@ projects[addressfield][subdir] = "contrib"
 projects[addressfield][version] = "1.0-beta5"
 
 projects[admin_menu][subdir] = contrib
-projects[admin_menu][version] = "3.0-rc4"
+projects[admin_menu][version] = "3.x-dev"
 
 projects[agls][subdir] = contrib
 projects[agls][version] = "1.0-beta3"
@@ -130,6 +130,9 @@ projects[jquery_update][version] = "2.4"
 
 projects[libraries][subdir] = contrib
 projects[libraries][version] = "2.2"
+
+projects[lightbox2][subdir] = contrib
+projects[lightbox2][version] = "1.0-beta1"
 
 projects[link][subdir] = contrib
 projects[link][version] = "1.2"
