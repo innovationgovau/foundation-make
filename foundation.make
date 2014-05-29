@@ -3,16 +3,15 @@
 ;Version History
 
 ;13/03/2014 - Initial version
-;17/03/2014 - Added zendesk, zendesk_feedbacktab, date_ical, feeds_facebook
-<<<<<<< HEAD
-;17/03/2014 - Added backstretch
-=======
+;17/03/2014 - Added zendesk, zendesk_feedbacktab, date_ical, feeds_facebook.
+;17/03/2014 - Added backstretch.
 ;19/03/2014 - Removed JSON2 library.
 ;25/03/2014 - Added views_datasource, services and services_views, backstretch. Updated entity, field_collection and CKEditor library.
 ;14/04/2014 - Updated email, entity and jquery_update.
 ;02/05/2014 - Updated variable. Core will be updated to 7.27.
 ;26/05/2014 - Updated views, ckeditor, imce and search_api. Also updates core to 7.28.
->>>>>>> FETCH_HEAD
+;29/05/2014 - Updated devel. Added block_class.
+
 
 core = 7.x
 
@@ -36,6 +35,9 @@ projects[backstretch][version] = "2.x-dev"
 projects[better_exposed_filters][subdir] = contrib
 projects[better_exposed_filters][version] = "3.0-beta4"
 
+projects[block_class][subdir] = contrib
+projects[block_class][version] = "2.1"
+
 projects[ckeditor][subdir] = contrib
 projects[ckeditor][version] = "1.14"
 
@@ -55,7 +57,7 @@ projects[date_ical][subdir] = contrib
 projects[date_ical][version] = "3.1"
 
 projects[devel][subdir] = contrib
-projects[devel][version] = "1.4"
+projects[devel][version] = "1.5"
 
 projects[ds][subdir] = contrib
 projects[ds][version] = "2.6"
