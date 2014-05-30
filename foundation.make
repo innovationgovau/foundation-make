@@ -11,6 +11,7 @@
 ;02/05/2014 - Updated variable. Core will be updated to 7.27.
 ;26/05/2014 - Updated views, ckeditor, imce and search_api. Also updates core to 7.28.
 ;29/05/2014 - Updated devel. Added block_class, lightbox2. Changed admin_menu version to 3.x-dev.
+;30/05/2014 - Added countdown.
 
 
 core = 7.x
@@ -43,6 +44,9 @@ projects[ckeditor][version] = "1.14"
 
 projects[ckeditor_link][subdir] = contrib
 projects[ckeditor_link][version] = "2.3"
+
+projects[countdown][subdir] = contrib
+projects[countdown][version] = "1.0-alpha1"
 
 projects[crumbs][subdir] = contrib
 projects[crumbs][version] = "2.0-beta13"
