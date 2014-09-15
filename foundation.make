@@ -17,6 +17,7 @@
 ;							flexslider, job_scheduler, lightbox2, media, oauth, redirect, scheduler, search_api, services, services_views, shs, taxonomy_csv, twitter, views_datasource, workbench,
 ;							workbench_moderation, zendesk, zendesk_feedbacktab. Added omega (3.x). Removed all version numbers and subdirectories. Removed themes. Added elfinder, filefield_sources.
 ;							Note that this version is not currently downloading the elfinder library, waiting on moving it to industrygit.
+;							Added elfinder library.
 
 core = 7.x
 
@@ -111,3 +112,9 @@ libraries[html5shiv][download][url] = "https://github.com/aFarkas/html5shiv/zipb
 libraries[html5shiv][directory_name] = "html5shiv"
 libraries[html5shiv][type] = "library"
 libraries[html5shiv][destination] = "libraries"
+
+libraries[elfinder][download][type] = "get"
+libraries[elfinder][download][url] = "https://github.com/innovationgovau/elfinder/archive/master.zip"
+libraries[elfinder][directory_name] = "elfinder"
+libraries[elfinder][type] = "library"
+libraries[elfinder][destination] = "libraries"
