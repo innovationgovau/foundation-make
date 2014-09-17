@@ -1,5 +1,12 @@
 ;.make file for Foundation
 
+;Instructions
+; To include this file in another .make file, you must 'fool' Aegir into thinking that it is a project. Add the following lines to your platform .make file:
+;		projects[foundation][type] = "module"
+;		projects[foundation][download][url] = "https://github.com/innovationgovau/foundation-make/archive/master.zip"
+;		projects[foundation][download][type] = "get"
+
+
 ;Version History
 
 ;13/03/2014 - Initial version
@@ -18,12 +25,15 @@
 ;							workbench_moderation, zendesk, zendesk_feedbacktab. Added omega (3.x). Removed all version numbers and subdirectories. Removed themes. Added elfinder, filefield_sources.
 ;							Note that this version is not currently downloading the elfinder library, waiting on moving it to industrygit.
 ;							Added elfinder library.
+;17/09/2014	-	Added instructions on inclusion, project download folder default.
 
 core = 7.x
 
 api = 2
 
 projects[] = drupal
+
+defaults[projects][subdir] = "contrib"
 
 ; Modules
 projects[] = addressfield
