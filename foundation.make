@@ -26,6 +26,7 @@
 ;							Note that this version is not currently downloading the elfinder library, waiting on moving it to industrygit.
 ;							Added elfinder library.
 ;17/09/2014	-	Added instructions on inclusion, project download folder default.
+;29/10/2014 - Added patch to pathauto.
 
 core = 7.x
 
@@ -79,6 +80,10 @@ projects[] = token
 projects[] = variable
 projects[] = views
 projects[] = weight
+
+; Patches
+; Patch pathauto to remove single and double curly quotes from URLs.
+projects[pathauto][patch][] = "https://www.drupal.org/files/pathauto-207840-25-7.x-1.x-dev.patch"
 
 ; Libraries
 libraries[ckeditor][download][type] = "get"
