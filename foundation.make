@@ -86,7 +86,7 @@ projects[] = weight
 
 ; Patches
 ; Patch pathauto to remove single and double curly quotes from URLs.
-projects[pathauto][patch][] = "https://www.drupal.org/files/pathauto-207840-25-7.x-1.x-dev.patch"
+projects[pathauto][patch][] = https://www.drupal.org/files/pathauto-207840-25-7.x-1.x-dev.patch
 
 ; Libraries
 libraries[ckeditor][download][type] = "get"
