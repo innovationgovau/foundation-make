@@ -27,6 +27,7 @@
 ;							Added elfinder library.
 ;17/09/2014	-	Added instructions on inclusion, project download folder default.
 ;29/10/2014 - Added patch to pathauto.
+;04/11/2014 - Added force_password_change and admin_views.
 
 core = 7.x
 
@@ -39,6 +40,7 @@ defaults[projects][subdir] = "contrib"
 ; Modules
 projects[] = addressfield
 projects[] = admin_menu
+projects[] = admin_views
 projects[] = block_class
 projects[] = ckeditor
 projects[] = ckeditor_link
@@ -58,6 +60,7 @@ projects[] = field_group
 projects[] = field_reference
 projects[] = file_entity
 projects[] = filefield_sources
+projects[] = force_password_change
 projects[] = google_analytics
 projects[] = image_style_quality
 projects[] = imce
