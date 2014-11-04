@@ -73,7 +73,6 @@ projects[] = menu_trail_by_path
 projects[] = metatag
 projects[] = module_filter
 projects[] = panels
-projects[] = pathauto
 projects[] = plupload
 projects[] = rabbit_hole
 projects[] = references
