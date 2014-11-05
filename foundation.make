@@ -27,7 +27,7 @@
 ;							Added elfinder library.
 ;17/09/2014	-	Added instructions on inclusion, project download folder default.
 ;29/10/2014 - Added patch to pathauto.
-;04/11/2014 - Added force_password_change, admin_views and security_review.
+;04/11/2014 - Added force_password_change, admin_views, views_bulk_operations and security_review.
 
 core = 7.x
 
@@ -82,6 +82,7 @@ projects[] = superfish
 projects[] = token
 projects[] = variable
 projects[] = views
+projects[] = views_bulk_operations
 projects[] = weight
 
 ; Patches
